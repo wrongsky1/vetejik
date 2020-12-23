@@ -77,6 +77,10 @@
     transform: translate(-50%, 0) rotateY(-20deg) skewY(3deg);
 }
 
+.box:focus {
+    transform: translate(-50%, 0) rotateY(-20deg) skewY(3deg);
+}
+
 .text {
     transform: rotateY(20deg) skewY(-3deg)
 }
@@ -162,6 +166,10 @@
     transform: scale(1.15,1.15);
 }
 
+.pets__grid-item:focus .pets__grid-image{  
+    transform: scale(1.15,1.15);
+}
+
 .pets__grid-caption {
     background-color: rgba(0,0,0,0.65);
     cursor: pointer;
@@ -176,6 +184,10 @@
 }
 
 .pets__grid-item:hover .pets__grid-caption {
+	opacity: 1;
+}
+
+.pets__grid-item:focus .pets__grid-caption {
 	opacity: 1;
 }
 

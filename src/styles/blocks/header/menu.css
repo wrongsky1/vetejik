@@ -30,6 +30,15 @@
 
 /* Icon */
 
+/* .menu__icon-menu {
+    background-image: url('../../../images/menu.svg');
+    color: var(--basic-black);
+}
+.menu__icon-cross {
+    background-image: url('../../../images/cross.svg');
+    color: var(--basic-black);
+} */
+
 @media (max-width: 910px) {
     .menu__icon {
         display: block;
