@@ -1,0 +1,20 @@
+/* Global */
+@import '../vendor/normalize.css';
+@import '../vendor/fonts/fonts.css';
+@import './box-model.css';
+@import './variables.css';
+
+/* Blocks */
+@import './blocks/grid.css';
+@import './blocks/page.css';
+@import './blocks/header/header.css';
+@import './blocks/header/logo.css';
+@import './blocks/header/menu.css';
+@import './blocks/header/main.css';
+@import './blocks/contact-info/contact-info.css';
+@import './blocks/information/information.css';
+@import './blocks/about-doctor/about-doctor.css';
+@import './blocks/faq-info/faq-info.css';
+@import './blocks/prices/prices.css';
+@import './blocks/pets/pets.css';
+@import './blocks/help/help.css';

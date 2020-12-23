@@ -1,0 +1,15 @@
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-white: #ffffff;
+    /* основные цвета */
+    --basic-orange: rgb(228, 136, 60);
+    --basic-dark: #2a3249;
+    --basic-light: #eae5df;
+    
+    --special-dark: #346e9b;
+    --special-dark-10a: rgb(59 132 187 / 0.1);
+    /* для ховера */
+    --special-neutral: #65a8c7;
+}

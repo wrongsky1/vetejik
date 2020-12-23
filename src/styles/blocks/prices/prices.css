@@ -1,0 +1,144 @@
+/* Prices */
+
+.prices {
+    background-color: var(--basic-light);
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media (max-width: 600px) {
+    .prices {
+        grid-template-columns: 1fr;
+    }
+}
+
+.prices__images {
+    grid-column-start: 1;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+@media (max-width: 600px) {
+    .prices__images {
+        display: none;
+    }
+}
+
+.prices__content {
+    grid-column-start: 2;
+}
+@media (max-width: 600px) {
+    .prices__content {
+        grid-column-start: 1;
+    }
+}
+
+.prices__figure {
+    margin: 0;
+    justify-self: center;
+}
+
+.prices__img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    align-self: center;
+}
+
+.prices__img-caption {
+    margin: 0 0 10px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.prices__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.prices__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.prices__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    margin-right: 24px;
+    margin-left: 24px;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+}
+
+@media (max-width: 840px) {
+    .prices__list-item {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .prices__list-item {
+        font-size: 10px;
+    }
+}
+
+.price__item {
+    max-width: 500px;
+}
+
+@media (max-width: 100px) {
+    .price__item {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .price__item {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 460px) {
+    .price__item {
+        max-width: 180px;
+    }
+}
+
+.price__cost {
+    width: 350px;
+    justify-self: end;
+    text-align: right;
+}
+
+@media (max-width: 1000px) {
+    .price__cost {
+        width: 200px;
+    }
+}
+
+@media (max-width: 470px) {
+    .price__cost {
+        width: 130px;
+    }
+}

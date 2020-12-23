@@ -1,0 +1,34 @@
+/* information */
+
+.information {
+    background-color: var(--basic-white);
+    padding: 15px 24px;
+}
+
+.info-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 54px;
+    color: var(--basic-dark);
+    text-align: center;
+}
+
+.info-subtitle {
+    margin: 0;
+    padding-top: 10px;
+    color: var(--basic-dark);
+    font-size: 16px;
+}
+
+@media (max-width: 955px) {
+    .info-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 750px) {
+    .information {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
