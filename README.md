@@ -23,3 +23,5 @@
 - Some css tricks
 
 ## Ссылка на сайт:
+
+https://wrongsky1.github.io/vetejik/
