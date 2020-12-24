@@ -19,6 +19,8 @@
     transform-style: preserve-3d;
     perspective: 2000px;
     transition:.4s;
+    background-color: transparent;
+    border: none;
 }
 
 .box::before {
@@ -171,7 +173,6 @@
 }
 
 .pets__grid-caption {
-    background-color: rgba(0,0,0,0.65);
     cursor: pointer;
     position: absolute;
     opacity: 0;
@@ -181,6 +182,14 @@
     height: 100%;
     top:0;
     left: 0;
+    background-color: rgba(0,0,0,0.65);
+    border: 0;
+    border-radius: 0;
+}
+
+.pets__grid-caption_active {
+    opacity: 1;
+    
 }
 
 .pets__grid-item:hover .pets__grid-caption {
