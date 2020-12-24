@@ -24,6 +24,7 @@
         justify-self: end;
         cursor: pointer;
         position: relative;
+        outline: none;
     }
     .menu-button__line {
         display: block;
@@ -34,9 +35,7 @@
         left: 0;
         transition: .2s all linear;
     }
-    .menu__button:hover {
-        background-color: var(--special-neutral);
-    }
+
     .menu-button__line_first {
         top: 0;
     }
